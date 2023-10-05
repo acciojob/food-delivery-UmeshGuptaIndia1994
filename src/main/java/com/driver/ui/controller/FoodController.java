@@ -18,32 +18,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/foods")
 public class FoodController {
 
-	@GetMapping(path="/{id}")
-	public FoodDetailsResponse getFood(@PathVariable String id) throws Exception{
+	@GetMapping(path = "/{id}")
+	public FoodDetailsResponse getFood(@PathVariable String id) throws Exception {
 
 		return null;
 	}
 
 	@PostMapping("/create")
 	public FoodDetailsResponse createFood(@RequestBody FoodDetailsRequestModel foodDetails) {
-
-		return null;
-	}
-
-	@PutMapping(path="/{id}")
-	public FoodDetailsResponse updateFood(@PathVariable String id, @RequestBody FoodDetailsRequestModel foodDetails) throws Exception{
-
-		return null;
-	}
-
-	@DeleteMapping(path = "/{id}")
-	public OperationStatusModel deleteFood(@PathVariable String id) throws Exception{
-
-		return null;
-	}
-	
-	@GetMapping()
-	public List<FoodDetailsResponse> getFoods() {
 
 		return null;
 	}

@@ -2,7 +2,7 @@ package com.driver.shared.dto;
 
 import java.io.Serializable;
 
-public class OrderDto{
+public class OrderDto {
 
 	private long id;
 	private String orderId;
@@ -35,11 +35,11 @@ public class OrderDto{
 		this.cost = cost;
 	}
 
-	public String [] getItems() {
+	public String[] getItems() {
 		return items;
 	}
 
-	public void setItems(String [] items) {
+	public void setItems(String[] items) {
 		this.items = items;
 	}
 
@@ -50,13 +50,4 @@ public class OrderDto{
 	public void setUserId(String userId) {
 		this.userId = userId;
 	}
-
-	public boolean isStatus() {
-		return status;
-	}
-
-	public void setStatus(boolean status) {
-		this.status = status;
-	}
-
 }
